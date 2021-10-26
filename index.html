@@ -3,11 +3,15 @@
     <head>
         <meta charset="utf">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/main.css">
+        
         <title>Organic</title>
     </head>
     <body>
-        <header>
-            <img src="" alt="Logo">
+        <section class="section-main">
+        <header class="header-item">
+            <div class="header-item">
+            <div><img src="" alt="Logo"></div>
             <nav>
                 <ul>
                     <li><a href="">Наша продукция</a></li>
@@ -20,16 +24,149 @@
             </nav>
             <div>
                 <a href="tel:+79453425555">+7 945 342 55 55</a>
-                <div>
-                    
+                <div class="header-cart">
+                    <button class="header-cart__button" type="button"></button>button>
+                    <span class="header-cart__count">0</span>
                 </div>
             </div>
         </header>
-        <main>
+            <div class="wrapper">
+                <div class="main">
+                    <div class="main-text">
+                        <div class="title">Здоровая еда - <br><span>это просто</span></div>
+                        <p class="main-text__description">Сеть магазинов продуктов питания, производство которых основано на принципах и стандартах органических</p>
+                        <a class="btn" href="Перейти в каталог"></a>
+                    </div>
+                    <div class="main-visual">
+                        <div class="main-visual_image">
+                            <img src="img/image-main.png" alt="">
+                        </div>
+                        <button class="main-visual_btn main-visual__01">
+                            Авокадо<span>134 руб</span></button>
+                        <button class="main-visual_btn main-visual__01">
+                            Картофель<span>169 руб</span></button>
+                        <button class="main-visual_btn main-visual__01">
+                            Томаты<span>215 руб</span></button>
+                    </div>
+                </div>
+            </div>
+            <img class="section-main_image section_tomato" src="img/tomato.png" alt="Tomato">
+            <img class="section-main_image section_avocado" src="img/avocado.png" alt="Avocado">
+            <img class="section-main_image section_cucumber" src="img/cucumber.png" alt="Cucumber">
+            <img class="section-main_image section_pepper" src="img/pepper.png" alt="Pepper">
+            <img class="section-main_image section_beans" src="img/beans.png" alt="Beans">
+            </section>
+            <section class="section-stock">
+                <div class="wrapper">
+                    <h2 class="title">Что мы<br><span>предлагаем</span></h2>
+                    <p class="section-stock__text">Органика - это целостная система производства по-натощему чистой, натуральной и полезной продукции</p>
+                    <div class="slider">
+                        <div class="slider-child">
 
+                        </div>
+                    </div>
+                    <div class="slider-child">
+                        <div class="slider-item">
+                            <div class="slider-thumb">
+                                <img class="slider-thumb__image" src="img/egg.png" alt="Egg">
+                            </div>
+                        </div>
+                        <div class="slider-info">
+                            <h3 class="slider-info__title">Яйцо перепелиное</h3>
+                            <p class="slider-info__description">QEGG Яйцо перепелиное 20шт</p>
+                            <p class="slider-info__price">94 руб/упак</p>
+                            <div class="slider-footer">
+                                <div class="slider-count">
+                                    <span class="slider-count__minus"></span>
+                                    <input class="slider-count__number" type="text" value="1"/>
+                                    <span class="slider-count__plus"></span>
+                                </div>
+                                <button class="btn slider-footer__btn">в корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="slider-item slider-milk">
+                        <div class="slider-text">
+                            <h3 class="slider-text_title">Молочные продукты</h3>
+                            <p class="slider-text_description">В наши дни появилась мода на здоровое питание, поэтому на рынке питания разработали органическое молоко</p>
+                            <a href="slider-text_link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider-item slider-grocery">
+                        <div class="slider-text">
+                            <h3 class="slider-text__title">Бакалея</h3>
+                            <p class="slider-text__description">В наши дни появилась мода на здоровое питание, поэтому на рынке питания разработали органическое молоко</p>
+                            <a href="#" class="slider-text__link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item slider-meat">
+                    <div class="slider-text">
+                        <h3 class="slider-text__title">Мясо, птица</h3>
+                        <p class="slider-text__description">В наши дни появилась мода на здоровое питание, поэтому на рынке питания разработали органическое молоко</p>
+                        <a href="#" class="slider-text__link">Подробнее</a>
+                    </div>
+                </div>
+            </section>
+            <section class="section=advantage">
+                <div class="wrapper">
+                    <h2 class="title">В чем наша<br><span>уникальность</span></h2>
+                    <div class="box-advantage">
+                        <div class="box-advantage-item">
+                            <div class="ml">
+                                <p>Мы полностью контролируем весь цикл производства - от поля до прилавка за</p>
+                            </div>
+                        </div>
+                        <div class="box-advantage-item">
+                            <ul class="box-advantage-list">
+                                <li class="box-advantage-list__health"><span></span>Здоровье</li>
+                                <li class="box-advantage-list__health"><span></span>Традиции</li>
+                                <li class="box-advantage-list__health"><span></span>Вкус</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-new">
+                <div class="wrapper">
+                    <h2 class="title">Наши <span>новинки</span></h2>
+                    <p class="section-new__text">Будь в тренде с современным миром, и будь здоров вместе с нами</p>
+                    <div class="slider">
+                        <div class="slider-child">
+                            <div class="slider-item">
+                                <div class="slider-thumb">
+                                    <img class="slider-thumb_image" src="img/stock/bottle.png" alt="Egg">
+                                </div>
+                                <div class="slider-info">
+                                    <h3 class="slider-info__title">Молоко топленое</h3>
+                                    <p class="slider-info__price">159 руб/шт</p>
+                                    <div class="slieder-footer">
+                                        <div class="slieder-count">
+                                            <span class="slieder-count__minus"></span>
+                                            <input class="slieder-count__number" type="text" valuee="1"/>
+                                            <span class="slider-count__plus"></span>
+                                        </div>
+                                        <button class="btn slider-footer_btn">в корзину</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slieder-child>">
+                            <div class="slider-item">
+                                <div class="slider-thumb">
+                                    <img class="slider-thumb_image" src="img/egg.png" alt="Milk">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <main>
         </main>
+        <script src="js/main.js"></script>
+        <script src="js/vendor.js"></script>
         <footer>
-            
         </footer>
     </body>
 </html>
